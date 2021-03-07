@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "AlteHaasGroteskBold";
+  src: url("./fonts/AlteHaasGroteskBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "univers";
+  src: url("./fonts/univers.ttf") format("truetype");
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#header {
+  background-image: url("./images/backgraund.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#header nav {
+  opacity: 0.7;
+}
+#header nav .navbar-brand {
+  margin-left: 10%;
+}
+#header nav #navbarNav {
+  margin-left: 45%;
+}
+#header nav #navbarNav .nav-link {
+  color: black;
+}
+#header nav #navbarNav button {
+  background: red;
+  border: 0px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 10%;
+}
+#header #text {
+  margin-top: 20%;
+  padding: 8%;
+}
+#header #text h1 {
+  color: white;
+  font-size: 400%;
+  font-family: "AlteHaasGroteskBold";
+}
+#header #text h5 {
+  color: white;
+  font-family: "univers";
+}
+
+#text_2 {
+  margin-top: 5%;
+  font-family: "univers";
+}
+#text_2 h5 {
+  width: 67%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+#gallery {
+  width: 100%;
+  height: 100%;
+}
+#gallery #card {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+#gallery #card .card {
+  margin-left: 2%;
+  border: 0px;
+}
+#gallery #card .card .card-img-top {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#hr {
+  margin-top: 5%;
+}
+
+#gallery_two {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  font-family: "univers";
+}
+#gallery_two .card {
+  margin-left: 14%;
+  margin-top: 5%;
+  width: 70%;
+  height: auto;
+  border: 0px;
+}
+
+#footer {
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.753);
+  font-family: "univers";
+}
+#footer .row #part_1 {
+  margin-left: 7%;
+  color: white;
+  width: 55%;
+}
+#footer .row #part_1 .text {
+  margin-left: 8%;
+  margin-top: 3%;
+}
+#footer .row #part_1 .text a {
+  color: white;
+  text-decoration: none;
+}
+#footer .row #part_1 .text a h4 {
+  font-size: 100%;
+}
+#footer .row #part_2 {
+  margin-left: 7%;
+  width: 25%;
+  margin-top: 2%;
+}
+#footer .row #part_2 a img {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#footer .row #part_2 h4 {
+  color: white;
+  font-size: 100%;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

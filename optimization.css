@@ -1,0 +1,79 @@
+@media (min-width: 360px) and (max-width: 640px) {
+  #header #text h1 {
+    font-size: 230%;
+  }
+
+  #text_2 h1 {
+    font-size: 155%;
+  }
+  #text_2 h5 {
+    font-size: 90%;
+  }
+
+  #gallery #card .card {
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+  #gallery #card .card .card-img-top {
+    width: 40%;
+  }
+
+  #footer .row #part_1 .text h3 {
+    font-size: 150%;
+  }
+  #footer .row #part_1 .text a {
+    font-size: 80%;
+  }
+  #footer .row #part_2 {
+    margin-top: 10%;
+  }
+  #footer .row #part_2 a img {
+    width: 37%;
+  }
+  #footer .row #part_2 h4 {
+    font-size: 70%;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  #header nav #navbarNav {
+    margin-left: 40%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  #gallery #card .card {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  #gallery #card {
+    width: 90%;
+  }
+  #gallery #card .card {
+    margin-left: 10%;
+  }
+  #gallery #card .card .card-img-top {
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  #footer .row #part_2 a img {
+    width: 25%;
+  }
+}
+@media (min-width: 1920px) {
+  #gallery #card {
+    width: 100%;
+  }
+  #gallery #card .card {
+    margin-left: 7%;
+  }
+  #gallery #card .card .card-img-top {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=optimization.css.map */

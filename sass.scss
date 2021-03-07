@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'AlteHaasGroteskBold';
+    src: url('./fonts/AlteHaasGroteskBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'univers';
+    src: url('./fonts/univers.ttf') format("truetype");
+}
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+#header {
+    background-image: url('./images/backgraund.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    nav {
+        opacity: 0.7;
+
+        .navbar-brand {
+            margin-left: 10%;
+        }
+
+        #navbarNav {
+            margin-left: 45%;
+
+            .nav-link {
+                color: black;
+            }
+
+            button {
+                background: red;
+                border: 0px;
+                border-radius: 5px 5px 5px 5px;
+                margin-top: 10%;
+            }
+        }
+    }
+
+    #text {
+        margin-top: 20%;
+        padding: 8%;
+
+        h1 {
+            color: white;
+            font-size: 400%;
+            font-family: 'AlteHaasGroteskBold';
+        }
+
+        h5 {
+            color: white;
+            font-family: 'univers';
+        }
+    }
+}
+
+#text_2 {
+    margin-top: 5%;
+    font-family: 'univers';
+
+    h5 {
+        width: 67%;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+}
+
+#gallery {
+    width: 100%;
+    height: 100%;
+
+    #card {
+        margin-left: 5%;
+        margin-top: 10%;
+
+        .card {
+            margin-left: 2%;
+            border: 0px;
+
+            .card-img-top {
+                width: 50%;
+                margin-left: 25%;
+            }
+        }
+    }
+}
+
+#hr {
+    margin-top: 5%;
+}
+
+#gallery_two {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    font-family: 'univers';
+
+    .card {
+        margin-left: 14%;
+        margin-top: 5%;
+        width: 70%;
+        height: auto;
+        border: 0px;
+    }
+}
+
+#footer {
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.753);
+    font-family: 'univers';
+
+    .row {
+        #part_1 {
+            margin-left: 7%;
+            color: white;
+            width: 55%;
+
+            .text {
+                margin-left: 8%;
+                margin-top: 3%;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    h4 {
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+
+        #part_2 {
+            margin-left: 7%;
+            width: 25%;
+            margin-top: 2%;
+
+            a {
+
+                img {
+                    margin-left: 10%;
+                    margin-top: 5%;
+                }
+            }
+
+            h4 {
+                color: white;
+                font-size: 100%;
+                margin-left: 12%;
+                margin-top: 5%;
+            }
+        }
+    }
+}
